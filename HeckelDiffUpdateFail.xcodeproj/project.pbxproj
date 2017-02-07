@@ -16,6 +16,8 @@
 		C44553901E4A5A1F002E01D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C445538E1E4A5A1F002E01D0 /* LaunchScreen.storyboard */; };
 		C445539B1E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C445539A1E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests.swift */; };
 		C44553A61E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44553A51E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.swift */; };
+		C44553B61E4A6500002E01D0 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44553B51E4A6500002E01D0 /* CollectionViewController.swift */; };
+		C44553B81E4A675A002E01D0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44553B71E4A675A002E01D0 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		C44553A11E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeckelDiffUpdateFailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44553A51E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeckelDiffUpdateFailUITests.swift; sourceTree = "<group>"; };
 		C44553A71E4A5A1F002E01D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44553B51E4A6500002E01D0 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		C44553B71E4A675A002E01D0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		ED8AC619A68849B2E00BB516 /* Pods_HeckelDiffUpdateFailTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeckelDiffUpdateFailTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,10 +133,12 @@
 		C44553841E4A5A1F002E01D0 /* HeckelDiffUpdateFail */ = {
 			isa = PBXGroup;
 			children = (
-				C44553851E4A5A1F002E01D0 /* AppDelegate.swift */,
-				C44553871E4A5A1F002E01D0 /* ViewController.swift */,
 				C44553891E4A5A1F002E01D0 /* Main.storyboard */,
+				C44553871E4A5A1F002E01D0 /* ViewController.swift */,
+				C44553B51E4A6500002E01D0 /* CollectionViewController.swift */,
+				C44553B71E4A675A002E01D0 /* CollectionViewCell.swift */,
 				C445538C1E4A5A1F002E01D0 /* Assets.xcassets */,
+				C44553851E4A5A1F002E01D0 /* AppDelegate.swift */,
 				C445538E1E4A5A1F002E01D0 /* LaunchScreen.storyboard */,
 				C44553911E4A5A1F002E01D0 /* Info.plist */,
 			);
@@ -393,7 +399,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44553B61E4A6500002E01D0 /* CollectionViewController.swift in Sources */,
 				C44553881E4A5A1F002E01D0 /* ViewController.swift in Sources */,
+				C44553B81E4A675A002E01D0 /* CollectionViewCell.swift in Sources */,
 				C44553861E4A5A1F002E01D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -649,6 +657,7 @@
 				C44553AC1E4A5A1F002E01D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C44553AD1E4A5A1F002E01D0 /* Build configuration list for PBXNativeTarget "HeckelDiffUpdateFailTests" */ = {
 			isa = XCConfigurationList;
@@ -657,6 +666,7 @@
 				C44553AF1E4A5A1F002E01D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C44553B01E4A5A1F002E01D0 /* Build configuration list for PBXNativeTarget "HeckelDiffUpdateFailUITests" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +675,7 @@
 				C44553B21E4A5A1F002E01D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
