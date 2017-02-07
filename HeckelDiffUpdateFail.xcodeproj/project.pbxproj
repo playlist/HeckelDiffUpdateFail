@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		164418C56E0BD0308CFF9F07 /* Pods_HeckelDiffUpdateFailTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8AC619A68849B2E00BB516 /* Pods_HeckelDiffUpdateFailTests.framework */; };
+		99DE90A917B866FAF6EED4B2 /* Pods_HeckelDiffUpdateFail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EAA1E31E4F59B3F43FC89C /* Pods_HeckelDiffUpdateFail.framework */; };
 		C44553861E4A5A1F002E01D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44553851E4A5A1F002E01D0 /* AppDelegate.swift */; };
 		C44553881E4A5A1F002E01D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44553871E4A5A1F002E01D0 /* ViewController.swift */; };
 		C445538B1E4A5A1F002E01D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44553891E4A5A1F002E01D0 /* Main.storyboard */; };
@@ -34,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CE131AB063B976C761F8046 /* Pods-HeckelDiffUpdateFail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeckelDiffUpdateFail.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeckelDiffUpdateFail/Pods-HeckelDiffUpdateFail.release.xcconfig"; sourceTree = "<group>"; };
+		2F49C7F23A8700D84F38CE9C /* Pods-HeckelDiffUpdateFail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeckelDiffUpdateFail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeckelDiffUpdateFail/Pods-HeckelDiffUpdateFail.debug.xcconfig"; sourceTree = "<group>"; };
+		54EAA1E31E4F59B3F43FC89C /* Pods_HeckelDiffUpdateFail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeckelDiffUpdateFail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8C074D3EAED73DDA60FD1B /* Pods-HeckelDiffUpdateFailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeckelDiffUpdateFailTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeckelDiffUpdateFailTests/Pods-HeckelDiffUpdateFailTests.release.xcconfig"; sourceTree = "<group>"; };
+		B32AB27E142509C97AF8BA0A /* Pods-HeckelDiffUpdateFailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeckelDiffUpdateFailTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeckelDiffUpdateFailTests/Pods-HeckelDiffUpdateFailTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C44553821E4A5A1F002E01D0 /* HeckelDiffUpdateFail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeckelDiffUpdateFail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44553851E4A5A1F002E01D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C44553871E4A5A1F002E01D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		C44553A11E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeckelDiffUpdateFailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44553A51E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeckelDiffUpdateFailUITests.swift; sourceTree = "<group>"; };
 		C44553A71E4A5A1F002E01D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8AC619A68849B2E00BB516 /* Pods_HeckelDiffUpdateFailTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeckelDiffUpdateFailTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99DE90A917B866FAF6EED4B2 /* Pods_HeckelDiffUpdateFail.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164418C56E0BD0308CFF9F07 /* Pods_HeckelDiffUpdateFailTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38084B80653906C4937A68FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F49C7F23A8700D84F38CE9C /* Pods-HeckelDiffUpdateFail.debug.xcconfig */,
+				0CE131AB063B976C761F8046 /* Pods-HeckelDiffUpdateFail.release.xcconfig */,
+				B32AB27E142509C97AF8BA0A /* Pods-HeckelDiffUpdateFailTests.debug.xcconfig */,
+				AA8C074D3EAED73DDA60FD1B /* Pods-HeckelDiffUpdateFailTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		386DAF0D1FEF63F131CEF666 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54EAA1E31E4F59B3F43FC89C /* Pods_HeckelDiffUpdateFail.framework */,
+				ED8AC619A68849B2E00BB516 /* Pods_HeckelDiffUpdateFailTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C44553791E4A5A1F002E01D0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				C44553991E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests */,
 				C44553A41E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests */,
 				C44553831E4A5A1F002E01D0 /* Products */,
+				38084B80653906C4937A68FD /* Pods */,
+				386DAF0D1FEF63F131CEF666 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C44553AA1E4A5A1F002E01D0 /* Build configuration list for PBXNativeTarget "HeckelDiffUpdateFail" */;
 			buildPhases = (
+				AC2B7712D0DA9E5E3FF465E7 /* [CP] Check Pods Manifest.lock */,
 				C445537E1E4A5A1F002E01D0 /* Sources */,
 				C445537F1E4A5A1F002E01D0 /* Frameworks */,
 				C44553801E4A5A1F002E01D0 /* Resources */,
+				8D0029081122E3F4ED52435E /* [CP] Embed Pods Frameworks */,
+				C969A86FAF4A8A255CD8EB02 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C44553AD1E4A5A1F002E01D0 /* Build configuration list for PBXNativeTarget "HeckelDiffUpdateFailTests" */;
 			buildPhases = (
+				C2748805C8E477632A61A5BE /* [CP] Check Pods Manifest.lock */,
 				C44553921E4A5A1F002E01D0 /* Sources */,
 				C44553931E4A5A1F002E01D0 /* Frameworks */,
 				C44553941E4A5A1F002E01D0 /* Resources */,
+				9942D8C769A776FB8580C9B4 /* [CP] Embed Pods Frameworks */,
+				C68AA5B912F26A3DCAE5AF3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +294,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D0029081122E3F4ED52435E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeckelDiffUpdateFail/Pods-HeckelDiffUpdateFail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9942D8C769A776FB8580C9B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeckelDiffUpdateFailTests/Pods-HeckelDiffUpdateFailTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC2B7712D0DA9E5E3FF465E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2748805C8E477632A61A5BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C68AA5B912F26A3DCAE5AF3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeckelDiffUpdateFailTests/Pods-HeckelDiffUpdateFailTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C969A86FAF4A8A255CD8EB02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeckelDiffUpdateFail/Pods-HeckelDiffUpdateFail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C445537E1E4A5A1F002E01D0 /* Sources */ = {
@@ -413,6 +544,7 @@
 		};
 		C44553AB1E4A5A1F002E01D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F49C7F23A8700D84F38CE9C /* Pods-HeckelDiffUpdateFail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3NLAQ87DRE;
@@ -426,6 +558,7 @@
 		};
 		C44553AC1E4A5A1F002E01D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE131AB063B976C761F8046 /* Pods-HeckelDiffUpdateFail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3NLAQ87DRE;
@@ -439,6 +572,7 @@
 		};
 		C44553AE1E4A5A1F002E01D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B32AB27E142509C97AF8BA0A /* Pods-HeckelDiffUpdateFailTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +588,7 @@
 		};
 		C44553AF1E4A5A1F002E01D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8C074D3EAED73DDA60FD1B /* Pods-HeckelDiffUpdateFailTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
