@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C44553861E4A5A1F002E01D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44553851E4A5A1F002E01D0 /* AppDelegate.swift */; };
+		C44553881E4A5A1F002E01D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44553871E4A5A1F002E01D0 /* ViewController.swift */; };
+		C445538B1E4A5A1F002E01D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44553891E4A5A1F002E01D0 /* Main.storyboard */; };
+		C445538D1E4A5A1F002E01D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C445538C1E4A5A1F002E01D0 /* Assets.xcassets */; };
+		C44553901E4A5A1F002E01D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C445538E1E4A5A1F002E01D0 /* LaunchScreen.storyboard */; };
+		C445539B1E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C445539A1E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests.swift */; };
+		C44553A61E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44553A51E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C44553971E4A5A1F002E01D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C445537A1E4A5A1F002E01D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44553811E4A5A1F002E01D0;
+			remoteInfo = HeckelDiffUpdateFail;
+		};
+		C44553A21E4A5A1F002E01D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C445537A1E4A5A1F002E01D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44553811E4A5A1F002E01D0;
+			remoteInfo = HeckelDiffUpdateFail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C44553821E4A5A1F002E01D0 /* HeckelDiffUpdateFail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeckelDiffUpdateFail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44553851E4A5A1F002E01D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C44553871E4A5A1F002E01D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C445538A1E4A5A1F002E01D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C445538C1E4A5A1F002E01D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C445538F1E4A5A1F002E01D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C44553911E4A5A1F002E01D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44553961E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeckelDiffUpdateFailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C445539A1E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeckelDiffUpdateFailTests.swift; sourceTree = "<group>"; };
+		C445539C1E4A5A1F002E01D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44553A11E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeckelDiffUpdateFailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44553A51E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeckelDiffUpdateFailUITests.swift; sourceTree = "<group>"; };
+		C44553A71E4A5A1F002E01D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C445537F1E4A5A1F002E01D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44553931E4A5A1F002E01D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C445539E1E4A5A1F002E01D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C44553791E4A5A1F002E01D0 = {
+			isa = PBXGroup;
+			children = (
+				C44553841E4A5A1F002E01D0 /* HeckelDiffUpdateFail */,
+				C44553991E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests */,
+				C44553A41E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests */,
+				C44553831E4A5A1F002E01D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C44553831E4A5A1F002E01D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44553821E4A5A1F002E01D0 /* HeckelDiffUpdateFail.app */,
+				C44553961E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests.xctest */,
+				C44553A11E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44553841E4A5A1F002E01D0 /* HeckelDiffUpdateFail */ = {
+			isa = PBXGroup;
+			children = (
+				C44553851E4A5A1F002E01D0 /* AppDelegate.swift */,
+				C44553871E4A5A1F002E01D0 /* ViewController.swift */,
+				C44553891E4A5A1F002E01D0 /* Main.storyboard */,
+				C445538C1E4A5A1F002E01D0 /* Assets.xcassets */,
+				C445538E1E4A5A1F002E01D0 /* LaunchScreen.storyboard */,
+				C44553911E4A5A1F002E01D0 /* Info.plist */,
+			);
+			path = HeckelDiffUpdateFail;
+			sourceTree = "<group>";
+		};
+		C44553991E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests */ = {
+			isa = PBXGroup;
+			children = (
+				C445539A1E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests.swift */,
+				C445539C1E4A5A1F002E01D0 /* Info.plist */,
+			);
+			path = HeckelDiffUpdateFailTests;
+			sourceTree = "<group>";
+		};
+		C44553A41E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C44553A51E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.swift */,
+				C44553A71E4A5A1F002E01D0 /* Info.plist */,
+			);
+			path = HeckelDiffUpdateFailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44553811E4A5A1F002E01D0 /* HeckelDiffUpdateFail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44553AA1E4A5A1F002E01D0 /* Build configuration list for PBXNativeTarget "HeckelDiffUpdateFail" */;
+			buildPhases = (
+				C445537E1E4A5A1F002E01D0 /* Sources */,
+				C445537F1E4A5A1F002E01D0 /* Frameworks */,
+				C44553801E4A5A1F002E01D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeckelDiffUpdateFail;
+			productName = HeckelDiffUpdateFail;
+			productReference = C44553821E4A5A1F002E01D0 /* HeckelDiffUpdateFail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C44553951E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44553AD1E4A5A1F002E01D0 /* Build configuration list for PBXNativeTarget "HeckelDiffUpdateFailTests" */;
+			buildPhases = (
+				C44553921E4A5A1F002E01D0 /* Sources */,
+				C44553931E4A5A1F002E01D0 /* Frameworks */,
+				C44553941E4A5A1F002E01D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44553981E4A5A1F002E01D0 /* PBXTargetDependency */,
+			);
+			name = HeckelDiffUpdateFailTests;
+			productName = HeckelDiffUpdateFailTests;
+			productReference = C44553961E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C44553A01E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44553B01E4A5A1F002E01D0 /* Build configuration list for PBXNativeTarget "HeckelDiffUpdateFailUITests" */;
+			buildPhases = (
+				C445539D1E4A5A1F002E01D0 /* Sources */,
+				C445539E1E4A5A1F002E01D0 /* Frameworks */,
+				C445539F1E4A5A1F002E01D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44553A31E4A5A1F002E01D0 /* PBXTargetDependency */,
+			);
+			name = HeckelDiffUpdateFailUITests;
+			productName = HeckelDiffUpdateFailUITests;
+			productReference = C44553A11E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C445537A1E4A5A1F002E01D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Funkware;
+				TargetAttributes = {
+					C44553811E4A5A1F002E01D0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3NLAQ87DRE;
+						ProvisioningStyle = Automatic;
+					};
+					C44553951E4A5A1F002E01D0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3NLAQ87DRE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C44553811E4A5A1F002E01D0;
+					};
+					C44553A01E4A5A1F002E01D0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3NLAQ87DRE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C44553811E4A5A1F002E01D0;
+					};
+				};
+			};
+			buildConfigurationList = C445537D1E4A5A1F002E01D0 /* Build configuration list for PBXProject "HeckelDiffUpdateFail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C44553791E4A5A1F002E01D0;
+			productRefGroup = C44553831E4A5A1F002E01D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44553811E4A5A1F002E01D0 /* HeckelDiffUpdateFail */,
+				C44553951E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests */,
+				C44553A01E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C44553801E4A5A1F002E01D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44553901E4A5A1F002E01D0 /* LaunchScreen.storyboard in Resources */,
+				C445538D1E4A5A1F002E01D0 /* Assets.xcassets in Resources */,
+				C445538B1E4A5A1F002E01D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44553941E4A5A1F002E01D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C445539F1E4A5A1F002E01D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C445537E1E4A5A1F002E01D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44553881E4A5A1F002E01D0 /* ViewController.swift in Sources */,
+				C44553861E4A5A1F002E01D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44553921E4A5A1F002E01D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C445539B1E4A5A1F002E01D0 /* HeckelDiffUpdateFailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C445539D1E4A5A1F002E01D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44553A61E4A5A1F002E01D0 /* HeckelDiffUpdateFailUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C44553981E4A5A1F002E01D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44553811E4A5A1F002E01D0 /* HeckelDiffUpdateFail */;
+			targetProxy = C44553971E4A5A1F002E01D0 /* PBXContainerItemProxy */;
+		};
+		C44553A31E4A5A1F002E01D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44553811E4A5A1F002E01D0 /* HeckelDiffUpdateFail */;
+			targetProxy = C44553A21E4A5A1F002E01D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C44553891E4A5A1F002E01D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C445538A1E4A5A1F002E01D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C445538E1E4A5A1F002E01D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C445538F1E4A5A1F002E01D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C44553A81E4A5A1F002E01D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C44553A91E4A5A1F002E01D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44553AB1E4A5A1F002E01D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = HeckelDiffUpdateFail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.HeckelDiffUpdateFail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C44553AC1E4A5A1F002E01D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = HeckelDiffUpdateFail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.HeckelDiffUpdateFail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C44553AE1E4A5A1F002E01D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = HeckelDiffUpdateFailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.HeckelDiffUpdateFailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeckelDiffUpdateFail.app/HeckelDiffUpdateFail";
+			};
+			name = Debug;
+		};
+		C44553AF1E4A5A1F002E01D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = HeckelDiffUpdateFailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.HeckelDiffUpdateFailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeckelDiffUpdateFail.app/HeckelDiffUpdateFail";
+			};
+			name = Release;
+		};
+		C44553B11E4A5A1F002E01D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = HeckelDiffUpdateFailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.HeckelDiffUpdateFailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HeckelDiffUpdateFail;
+			};
+			name = Debug;
+		};
+		C44553B21E4A5A1F002E01D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = HeckelDiffUpdateFailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.HeckelDiffUpdateFailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HeckelDiffUpdateFail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C445537D1E4A5A1F002E01D0 /* Build configuration list for PBXProject "HeckelDiffUpdateFail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44553A81E4A5A1F002E01D0 /* Debug */,
+				C44553A91E4A5A1F002E01D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44553AA1E4A5A1F002E01D0 /* Build configuration list for PBXNativeTarget "HeckelDiffUpdateFail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44553AB1E4A5A1F002E01D0 /* Debug */,
+				C44553AC1E4A5A1F002E01D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C44553AD1E4A5A1F002E01D0 /* Build configuration list for PBXNativeTarget "HeckelDiffUpdateFailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44553AE1E4A5A1F002E01D0 /* Debug */,
+				C44553AF1E4A5A1F002E01D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C44553B01E4A5A1F002E01D0 /* Build configuration list for PBXNativeTarget "HeckelDiffUpdateFailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44553B11E4A5A1F002E01D0 /* Debug */,
+				C44553B21E4A5A1F002E01D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C445537A1E4A5A1F002E01D0 /* Project object */;
+}
